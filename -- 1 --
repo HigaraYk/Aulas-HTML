@@ -26,6 +26,42 @@
     <h3>Curiosidade</h3>
         <p>O HTML existe desde 1991</p>
 </aside>
+<form action="/cadastro" method="post">
+<fieldset>
+    <legend>Dados pessoais </legend>
+    <label for ="nome">Nome Completo</label>
+    <input
+    type="text"
+    id="nome"
+    name="nome"
+    placeholder="Digite seu nome">
+    <label for ="matricula">Nome Matricula</label>
+    <input
+    type="text"
+    id="matricula"
+    name="matricula"
+    pattern="[0-9]{6}"
+    required>
+    <label>
+        <input type="radio" name="turno" value="manha" checked>
+        Manhã
+    </label>
+    <label>
+        <input type="radio" name="turno" value="noite">
+        Noite
+    </label>
+    <label> 
+        <input type="checkbox" name="termos" required>
+        Li e aceito os termos de uso
+    </label>
+
+    <select id="curso" name="curso">
+        <option value="frontend">Desenvolvimento Frontend</option>
+        <option value="bd">Banco de Dados</option>
+    </select>
+
+</fieldset>
+</form>
 
 <footer>
     <p>&copy; 2026 Escola Exemplo </p>
