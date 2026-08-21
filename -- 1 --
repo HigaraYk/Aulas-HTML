@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+
+<header>
+    <h1>Escola Exemplo</h1>
+    <nav>
+        <a href="#sobre">Sobre o Curso"</a>
+        <a href="#Cadastro">Cadastro</a>
+    </nav>
+</header>
+</html>
+
+<main>
+    <article>
+        <h2>Sobre o Curso</h2>
+        <section>
+            <h3>O que você vai aprender</h3>
+            <p>...</p>
+        </section>
+    </article>
+</main>
+
+<aside> 
+    <h3>Curiosidade</h3>
+        <p>O HTML existe desde 1991</p>
+</aside>
+
+<footer>
+    <p>&copy; 2026 Escola Exemplo </p>
+</footer>
+
+</body>
+
