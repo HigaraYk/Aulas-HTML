@@ -1,0 +1,13 @@
+<!DOCTYPE html> <!--Esta linha é uma declaração para o arquivo. "Este arquivo será escrito em HTML5-->
+
+<!--Pense no HTML como um corpo humano. Ele possui cabeça, corpo e pés. E antes de existir o corpo, existe a alma. Neste caso, <HTML>-->
+
+<html> 
+    <head> <!--O head contém informações sobre a página, configurações e recursos que o navegador precisa conhecer.-->
+        <title>Olá Mundo</title>
+    </head>
+
+    <body>
+
+    </body>
+</html>
